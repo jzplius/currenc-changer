@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Valiutos keitiklis</string>
+    <string name="text_view_currency_exchange_rate">%1$s %2$s = %3$s %4$s</string>
+    <string name="text_view_exhange_date">%1$s %2$s. %3$s</string>
+    <string name="url_currency_rates">http://www.lb.lt/exchange/Results.asp?S=csv&amp;dir=ASC&amp;Y=%1$s&amp;M=%2$s&amp;D=%3$s</string>
+    <string name="no_results">Nėra duomenų serveryje!</string>
+    <string name="courses_checked">Kursai tikrinti:&#32;</string>
+    <string name="choose">Pasirinkti</string>
+    <string name="cancel">Atšaukti</string>
+    <string name="select_currency">Pasirinkite valiutą</string>
+    <string name="wrong_number">Neteisingas skaičius!</string>
+    <string name="negative_number">Valiutos kiekis turi būti didesnis už 0!</string>
+    <string name="menu_currencies_rates">Valiutų kursai</string>
+    <string name="menu_currency_exchange">Valiutos keitimas</string>
+    <string name="menu_currency_history">Istorija</string>
+    <string name="currency">Valiuta</string>
+    <string name="currency_code">CUR</string>
+    <string name="no_internet_connection">Patikrinkite interneto ryšį!</string>
+    <string name="press_twice_to_exit_app">Spausk ATGAL dar sykį</string>
+    <string name="check">Tikrinti</string>
+    <string name="month_1_ltu">saus</string>
+    <string name="month_2_ltu">vas</string>
+    <string name="month_3_ltu">kov</string>
+    <string name="month_4_ltu">bal</string>
+    <string name="month_5_ltu">geg</string>
+    <string name="month_6_ltu">bir</string>
+    <string name="month_7_ltu">liep</string>
+    <string name="month_8_ltu">rugpj</string>
+    <string name="month_9_ltu">rugs</string>
+    <string name="month_10_ltu">spal</string>
+    <string name="month_11_ltu">lapk</string>
+    <string name="month_12_ltu">gruod</string>
+    <string name="nothing_to_display">Nėra istorijos, atlikite bent vieną valiutos keitimą!</string>
+
+
+</resources>

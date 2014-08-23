@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/text_view_currency_exchange_rate"
+        android:id="@+id/text_view_exchange"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_toRightOf="@+id/text_view_date"
+        android:layout_toEndOf="@+id/text_view_date"
+        android:layout_marginTop="4dp"
+        android:layout_marginRight="4dp"
+        android:layout_gravity="center"
+        android:layout_centerVertical="true"
+        android:gravity="center"/>
+
+    <ImageView
+        android:layout_width="48dp"
+        android:layout_height="46dp"
+        android:id="@+id/image_view_flag_to"
+        android:src="@drawable/european_union"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/image_view_flag_from"
+        android:layout_toEndOf="@+id/image_view_flag_from"/>
+
+    <ImageView
+    android:layout_width="48dp"
+    android:layout_height="46dp"
+    android:id="@+id/image_view_flag_from"
+    android:src="@drawable/european_union"
+    android:layout_alignParentTop="true"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentStart="true"
+    android:layout_marginLeft="4dp"
+    android:layout_marginRight="4dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="@string/text_view_exhange_date"
+        android:id="@+id/text_view_date"
+        android:layout_below="@+id/image_view_flag_to"
+        android:layout_alignLeft="@+id/image_view_flag_from"
+        android:layout_alignStart="@+id/image_view_flag_from"
+        android:layout_marginLeft="2dp"
+        android:layout_marginRight="4dp"
+        android:layout_marginBottom="4dp"/>
+
+</RelativeLayout>

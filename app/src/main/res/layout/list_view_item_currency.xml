@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/currency"
+        android:id="@+id/text_view_currency_name_to"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:layout_below="@+id/text_view_currency_code_to"
+        android:layout_alignLeft="@+id/text_view_currency_code_to"
+        android:layout_alignStart="@+id/text_view_currency_code_to"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/text_view_currency_exchange_rate"
+        android:id="@+id/text_view_currency_code_to"
+        android:layout_toEndOf="@+id/image_view_flag_to"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/image_view_flag_to"
+        />
+
+    <ImageView
+        android:layout_width="48dp"
+        android:layout_height="46dp"
+        android:id="@+id/image_view_flag_to"
+        android:layout_alignParentBottom="false"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:src="@drawable/european_union"
+        android:layout_marginRight="6dp"
+        android:layout_marginLeft="6dp"
+        android:layout_marginBottom="2dp"
+        android:layout_alignParentTop="true"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/image_view_arrow"
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:src="@drawable/ic_action_next_item"/>
+
+</RelativeLayout>
